@@ -3,7 +3,7 @@ name: 签到
 on:
   workflow_dispatch:
   schedule:
-    - cron: 30 14 * * *
+    - cron: 30 8 * * *
   watch:
     types: started
     
